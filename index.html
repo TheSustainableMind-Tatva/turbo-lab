@@ -3,41 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Portfolio</title>
+    <title>Your Website</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Name</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm [Your Name], a passionate architect and environmentalist.</p>
-    </section>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Your Tagline or Description</h2>
+                <p>Short intro about you, your philosophy, or your passion. You can be creative here.</p>
+                <a href="#work" class="btn">Explore My Work</a>
+            </div>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Some information about yourself goes here...</p>
-    </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Write a brief about yourself, your career, and what you do. This should reflect your work and ethos.</p>
+        </section>
 
-    <section id="work">
-        <h2>My Work</h2>
-        <p>Showcase your projects here...</p>
-    </section>
+        <section id="work">
+            <h2>My Work</h2>
+            <div class="work-items">
+                <div class="work-item">
+                    <h3>Project 1</h3>
+                    <p>Short description of the project. You can add a link here to show more.</p>
+                </div>
+                <div class="work-item">
+                    <h3>Project 2</h3>
+                    <p>Short description of the project. You can add a link here to show more.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>How people can reach you...</p>
-    </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me through this section. You can add your contact form here or simply link to your email.</p>
+        </section>
+    </main>
 
     <footer>
         <p>© 2025 Your Name. All rights reserved.</p>
